@@ -89,22 +89,6 @@ python main.py --mode test --image_path ./path_to_image.png
 | Recall    | 96.1% |
 | F1 Score  | 95.1% |
 
-**🛠️ Future Improvements**
-Integrate support for real-time fingerprint scanners.
-
-Train on larger and more diverse datasets (e.g., multiple spoofing materials).
-
-Extend model to other biometric modalities (e.g., face, iris).
-
-
-**🐛 Known Limitations**
-May struggle with poor quality or noisy fingerprint images.
-Dataset imbalance can affect classification performance.
-
 **👤 Author**
 Arpit2764
 GitHub: @arpit2764
-
-**🙌 Acknowledgments**
-The creators of DefraudNet for the base architecture.
-Public biometric datasets like LivDet for training and evaluation.
