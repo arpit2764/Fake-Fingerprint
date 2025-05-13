@@ -99,11 +99,7 @@ Extend model to other biometric modalities (e.g., face, iris).
 
 **🐛 Known Limitations**
 May struggle with poor quality or noisy fingerprint images.
-
 Dataset imbalance can affect classification performance.
-
-**📜 License**
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 **👤 Author**
 Arpit2764
@@ -111,5 +107,4 @@ GitHub: @arpit2764
 
 **🙌 Acknowledgments**
 The creators of DefraudNet for the base architecture.
-
 Public biometric datasets like LivDet for training and evaluation.
