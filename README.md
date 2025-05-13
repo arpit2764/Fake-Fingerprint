@@ -58,22 +58,22 @@ data/
 git clone https://github.com/arpit2764/Fake-Fingerprint.git
 cd Fake-Fingerprint
 
-#Create a Virtual Environment (optional but recommended)
+### 2.Create a Virtual Environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
- Install Dependencies
+### 3.Install Dependencies
 pip install -r requirements.txt
 
-🚀 How to Use
-🏋️‍♀️ Train the Model
+##🚀 How to Use
+###🏋️‍♀️ Train the Model
 
 python main.py --mode train --data_dir ./data/
 
-🧪 Test the Model on a Single Image
+###🧪 Test the Model on a Single Image
 python main.py --mode test --image_path ./path_to_image.png
 
-📝 Command-Line Arguments
+###📝 Command-Line Arguments
 | Argument       | Description                                   | Example                              |
 | -------------- | --------------------------------------------- | ------------------------------------ |
 | `--mode`       | Operation mode: `train` or `test`             | `--mode train`                       |
@@ -81,7 +81,7 @@ python main.py --mode test --image_path ./path_to_image.png
 | `--image_path` | Path to image file (used only in `test` mode) | `--image_path ./img/fingerprint.png` |
 
 
-📊 Example Results
+###📊 Example Results
 | Metric    | Score |
 | --------- | ----- |
 | Accuracy  | 95.4% |
@@ -89,7 +89,7 @@ python main.py --mode test --image_path ./path_to_image.png
 | Recall    | 96.1% |
 | F1 Score  | 95.1% |
 
-🛠️ Future Improvements
+###🛠️ Future Improvements
 Integrate support for real-time fingerprint scanners.
 
 Train on larger and more diverse datasets (e.g., multiple spoofing materials).
@@ -97,19 +97,19 @@ Train on larger and more diverse datasets (e.g., multiple spoofing materials).
 Extend model to other biometric modalities (e.g., face, iris).
 
 
-🐛 Known Limitations
+###🐛 Known Limitations
 May struggle with poor quality or noisy fingerprint images.
 
 Dataset imbalance can affect classification performance.
 
-📜 License
+###📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-👤 Author
+###👤 Author
 Arpit2764
 GitHub: @arpit2764
 
-🙌 Acknowledgments
+##🙌 Acknowledgments
 The creators of DefraudNet for the base architecture.
 
 Public biometric datasets like LivDet for training and evaluation.
