@@ -55,7 +55,6 @@ data/
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/arpit2764/Fake-Fingerprint.git
 cd Fake-Fingerprint
 
@@ -80,6 +79,7 @@ python main.py --mode test --image_path ./path_to_image.png
 | `--mode`       | Operation mode: `train` or `test`             | `--mode train`                       |
 | `--data_dir`   | Path to dataset folder                        | `--data_dir ./data/`                 |
 | `--image_path` | Path to image file (used only in `test` mode) | `--image_path ./img/fingerprint.png` |
+
 
 📊 Example Results
 | Metric    | Score |
@@ -113,8 +113,3 @@ GitHub: @arpit2764
 The creators of DefraudNet for the base architecture.
 
 Public biometric datasets like LivDet for training and evaluation.
-
-
----
-
-You can paste this directly into your `README.md`. If your command-line arguments, file names, or code structure differ slightly, I can adjust this to match your exact implementation—just let me know!
